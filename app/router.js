@@ -15,6 +15,8 @@ Router.map(function() {
   this.route('bill-info');
   this.route('bill-sponsor', {path:'/bill-sponsor/:sponsor.last_name'});
   this.route('oregon-legislative-info');
+  this.route('sign-up');
+  this.route('sign-in');
 });
 
 export default Router;

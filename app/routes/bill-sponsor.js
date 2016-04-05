@@ -2,7 +2,7 @@ import Ember from 'ember';
 import config from '../config/environment';
 
 export default Ember.Route.extend({
-  model: function(params) {
+  model: function() {
 
     var key = config.myApiKey;
     var url = "http://congress.api.sunlightfoundation.com/legislators?last_name=Kirk&apikey=" + key;
