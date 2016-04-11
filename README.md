@@ -1,7 +1,6 @@
 # Legislator-lookup
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project connects to the sunlight labs API to provide users with the ability to lookup which different legislators are involved in which bills.  
 
 ## Prerequisites
 
